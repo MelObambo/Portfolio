@@ -1,0 +1,37 @@
+ .list{
+    padding: 0;
+    display: grid;
+}
+@media screen and (min-width: 1200px) {
+    .list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 610px) {
+    .list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.list-element{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding: 2.5em;
+}
+.a-style{
+    display: inline;
+    color: var(--main-font-color);
+    text-decoration: none;
+    margin: auto;
+    padding: var(--nav-big-padding);
+    font-size: var(--nav-font-size);
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+.a-style:hover{
+    transition: color, .5s;
+    color: var(--theme-color-one);
+}
+.navigation-menu{
+    background-color: var(--nav-bg-color);
+}
+// overflows at 1120px

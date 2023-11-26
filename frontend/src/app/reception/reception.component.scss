@@ -1,0 +1,36 @@
+.text{
+    margin: 5em 0 0 8em;
+    display: grid;
+}
+.h1{
+    font-size: var(--reception-heading-font-size);
+    word-wrap: break-word;
+}
+.reception-text{
+    font-size: var(--reception-font-size);
+    margin-left: 4rem;
+}
+.card-image{
+    z-index: 60;
+    padding-right: 1em;
+}
+.ellipse{
+    position: absolute;
+    border-radius: 50em;
+    z-index: -1;
+}
+.ellipse.one{
+    height: 50svw;
+    width: 50svw;
+    left: -15em;
+    top: -10em;
+    background: radial-gradient(66.47% 66.47% at 34.84% 73.62%, #FC8E6F 0%, #E86F4A 40.95%, #C2502A 71.13%, #B6492C 100%);
+    transform: rotate(90deg);}
+
+.ellipse.two{
+    width: 15svw;
+    height: 15svw;
+    left: 80%;
+    top: 40%;
+    background: radial-gradient(66.47% 66.47% at 34.84% 73.62%, #8AACBF 22.31%, #628599 57.02%, #3E5665 94.79%);
+}
