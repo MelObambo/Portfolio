@@ -1,13 +1,7 @@
 <?php 
-
-namespace App;
-
-class Config{
-    define(HOST, "");
-    define(DB_NAME, "portfolio");
-    define(USER, "");
-    define(PASSWORD, "");
-    define();
-}
-
+define(DB_TYPE, "mysql");
+define(HOST, "localhost");
+define(DB_NAME, "portfolio");
+define(USER, "root");
+define(PASSWORD, "");
 ?>

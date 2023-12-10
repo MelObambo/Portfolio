@@ -20,13 +20,23 @@
     --nav-medium-padding: ;
 
     --reception-heading-font-size: 9rem;
-    --reception-font-size: 3em;
+    --h2-font-size: 3em;
+    --h2-padding-top: 3em;
+    --h2-padding-bottom: 2em;
 
     --button-color-one: ;
     --button-color-two: ;
     --light-font-color: var(--theme-color-two);
     --text-link: #4EC8CC;
-    
+
+    --projects-title-bg-color: #000;
+    --projects-description-bg-color: var(--theme-color-four);
+    --projects-title-font-size: 2rem;
+    --projects-description-font-size: 1.5rem;
+    --projects-description-color: #000;
+    --projects-description-border-radius: 1em 1em 0 0;
+    --projects-title-border-radius: 0 0 1em 1em;
+
     --footer-text-color: var(--theme-color-three);
     --footer-border-color: ;
 }
@@ -39,5 +49,10 @@ body{
     font-family: 'Inter', sans-serif;
     h1, h2, h3, h4, h5{
         margin: 0;
+    }
+    h2{
+        font-size: var(--h2-font-size);
+        padding: var(--h2-padding-top) 0 var(--h2-padding-bottom) 0;
+        text-align: center;
     }
 }

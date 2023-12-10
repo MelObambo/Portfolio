@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    width: 30em;
+}
+.container:hover{
+    cursor: pointer;
+}
+.description{
+    font-size: var(--projects-description-font-size);
+    background-color: var(--projects-description-bg-color);
+    color: var(--projects-description-color);
+    border-radius: var(--projects-description-border-radius);
+    padding: 1em;
+}
+.title{
+    font-size: var(--projects-title-font-size);
+    background-color: var(--projects-title-bg-color);
+    border-radius: var(--projects-title-border-radius);
+    padding: .5em;
+}
